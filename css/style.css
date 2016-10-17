@@ -1,0 +1,125 @@
+html,body,ul,li,div,h1,h2,h3,h4,p{
+    padding:0;
+    margin:0;
+    font-family: '微软雅黑';
+}
+li{
+    list-style: none;
+}
+body{
+    background: #aaaaaa;
+}
+.sidebar{
+    width: 334px;
+    background: #666;
+    position: fixed;
+    top:0;
+    left:0px;
+    height: 100%;
+}
+.title{
+    font-size:14px;
+}
+.header .title{
+    color: #ffffff;
+    text-align: center;
+    margin-top:10px;
+}
+.title h2{
+    padding-top:10px;
+    padding-left: 25px;
+}
+.rule{
+    margin:0 auto;
+    margin-top:10px;
+    border:1px solid #ffffff;
+    width:284px;
+}
+.cnt a{
+    color: #ffffff;
+    text-decoration:none;
+}
+.cnt a:hover{
+    background: #ffffff;
+    color: #000;
+
+}
+i{
+    color: #ffffff;
+}
+.user{
+    margin-left:5px;
+}
+.cnt{
+    padding:20px;
+}
+.cnt li{
+    margin-top: 7px;
+}
+.icon{
+    margin-right:10px;
+    font-size:14px;
+}
+.icon-1{
+     margin-right:13px;
+ }
+.contact-way{
+    margin-top:30px;
+}
+.cnt p{
+    color: #dddddd;
+}
+.right-sidebar{
+    margin-left:334px;
+    border:1px solid transparent;
+    width:900px;
+
+    background: #eeeeee;
+}
+.right-cnt li h3{
+    text-align: center  ;
+}
+.rule-right{
+    width:90%;
+    margin:20px auto;
+    border:1px solid #000000;
+}
+.project ul{
+    margin:0 auto;
+    text-align: center;
+}
+.project ul:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.project li{
+    border-radius:5px;
+    width: 258px;
+    margin:10px;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    border:1px solid #cccccc;
+}
+.img-ct{
+    position: relative;
+}
+.img-ct img{
+    width: 220px;
+    height: 150px;
+}
+.project a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.project li:hover{
+    background: #dddddd;
+}
+
+
+
