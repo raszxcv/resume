@@ -1,24 +1,36 @@
 html,body,ul,li,div,h1,h2,h3,h4,p{
     padding:0;
     margin:0;
-    font-family: '微软雅黑';
+    font-family: '微软雅黑','sans-serif';
 }
 li{
     list-style: none;
 }
-body{
-    background: #aaaaaa;
+a{
+    text-decoration: none;
+}
+.box{
+    width: 1106px;
+    height:1040px;
+    margin:0 auto;
+
+}
+.box:after{
+    clear: both;
+    content: '';
+    display: block;
 }
 .sidebar{
     width: 334px;
+    height:1042px;
     background: #666;
-    position: fixed;
-    top:0;
-    left:0px;
-    height: 100%;
+    float: left;
 }
 .title{
     font-size:14px;
+}
+.title.top h2{
+    padding-top:40px;
 }
 .header .title{
     color: #ffffff;
@@ -64,7 +76,7 @@ i{
      margin-right:13px;
  }
 .contact-way{
-    margin-top:30px;
+
 }
 .cnt p{
     color: #dddddd;
@@ -72,8 +84,9 @@ i{
 .right-sidebar{
     margin-left:334px;
     border:1px solid transparent;
-    width:900px;
-
+    width:730px;
+    height: 1000px;
+    padding: 20px;
     background: #eeeeee;
 }
 .right-cnt li h3{
@@ -95,30 +108,32 @@ i{
 }
 .project li{
     border-radius:5px;
-    width: 258px;
-    margin:10px;
+    width: 230px;
+    margin:5px;
     text-align: center;
     float: left;
-    padding: 5px;
     border:1px solid #cccccc;
 }
 .img-ct{
     position: relative;
 }
 .img-ct img{
-    width: 220px;
-    height: 150px;
+    width: 185px;
+    height: 115px;
+}
+.btn{
+    margin:0 auto;
 }
 .project a {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: inline-block;
+    margin:5px;
+    width:80px;
+    padding:3px;
+    border-radius:5px;
+    color: #000000;
 }
-.project li:hover{
-    background: #dddddd;
+.project a:hover{
+    background: #ccc;
 }
 
 
