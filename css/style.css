@@ -11,9 +11,9 @@ a{
 }
 .box{
     width: 1106px;
-    height:1040px;
+    height:1233px;
     margin:0 auto;
-
+    line-height: 1.5;
 }
 .box:after{
     clear: both;
@@ -22,7 +22,7 @@ a{
 }
 .sidebar{
     width: 334px;
-    height:1042px;
+    height:1233px;
     background: #666;
     float: left;
 }
@@ -85,12 +85,13 @@ i{
     margin-left:334px;
     border:1px solid transparent;
     width:730px;
-    height: 1000px;
+    height: 1193px;
     padding: 20px;
     background: #eeeeee;
 }
 .right-cnt li h3{
-    text-align: center  ;
+
+    width: 105px;
 }
 .rule-right{
     width:90%;
@@ -118,13 +119,13 @@ i{
     position: relative;
 }
 .img-ct img{
-    width: 185px;
+    width: 230px;
     height: 115px;
 }
 .btn{
     margin:0 auto;
 }
-.project a {
+.btn a {
     display: inline-block;
     margin:5px;
     width:80px;
@@ -134,6 +135,40 @@ i{
 }
 .project a:hover{
     background: #ccc;
+}
+.a{
+    display: inline-block;
+    border:1px solid black;
+    border-radius:5px;
+    width: 500px;
+    height:20px;
+    position: relative;
+    top:4px;
+    margin-left:50px;
+}
+.htss-rate{
+    width:75%;
+    height:20px;
+    border-radius:5px;
+    background: #dddddd;
+}
+.js-rate{
+    width:60%;
+    height:20px;
+    border-radius:5px;
+    background: #dddddd;
+}
+.jq-rate{
+    width:65%;
+    height:20px;
+    border-radius:5px;
+    background: #dddddd;
+}
+.tool-rate{
+    width:50%;
+    height:20px;
+    border-radius:5px;
+    background: #dddddd;
 }
 
 
